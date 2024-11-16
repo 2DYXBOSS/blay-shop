@@ -1,0 +1,212 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter article</title>
+    <link rel="shortcut icon" href="static/IMAGES/blaye.jpeg">    
+    <link rel="stylesheet" href="/static/CSS/ajout.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+
+    <header>
+        <h1 style="font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;font-size: 2rem;color: white;
+    ">HING<span id="deuxlogo">TON SHOP</span></h1>
+    </header>
+    
+    <form action="/objet" method="POST" class="formulaire" id="section">
+        <div class="formu">
+            <h1 style="font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;font-size: 1.5rem;color: rgba(255, 102, 0, 0.865);
+    text-align: center;padding-top: 10px;">MONTRES</h1>
+        <div class="lesimpur">
+            <input type="text" name="image" id="" value="{{filename}}">
+            <input type="text" name="twoimage" id="" value="{{filename1}}">
+            <input type="text" name="threeimage" id="" value="{{filename2}}">
+            <input type="text" name="forimage" id="" value="{{filename3}}">
+        </div>
+         <p style="text-align: center;color: rgb(36, 36, 116);font-size: 0.8rem;padding-top: 20px;font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;padding-bottom: 10px;">- Les images selctionnées de l'article !</p>
+        </div>
+         <div class="lesimadewe">
+            <div class="lesimahes">
+                {% if 'p' in filename %}
+                <img src="{{url_for('static', filename='uploads/' + filename)}}" width=" 100%" height="100%" alt="">
+                {% endif %}
+            </div>
+            
+            
+            <div class="lesimahes">
+                {% if 'p' in filename1 %}
+                <img src="{{url_for('static', filename='uploads/' + filename1)}}"  width=" 100%" height="100%" alt="">
+                {% endif %}
+            </div>
+            
+            
+            <div class="lesimahes">
+                {% if 'p' in filename2 %}
+                <img src="{{url_for('static', filename='uploads/' + filename2)}}"  width=" 100%" height="100%" alt="">
+                {% endif %}
+            </div>
+            
+            
+            <div class="lesimahes">
+                {% if 'p' in filename3 %}
+                <img src="{{url_for('static', filename='uploads/' + filename3)}}"  width=" 100%" height="100%" alt="">
+                {% endif %}
+            </div>
+            
+        </div>
+        </div>
+        <p style="text-align: center;color: rgb(36, 36, 116);font-size: 0.8rem;padding-top: 20px;font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;padding-bottom: 10px;">- Quelles sont les couleurs des articles ?</p>
+        <div class="inputcouleu">
+            <input type="checkbox" name="rouge" id="rouge" value="rouge">
+            <input type="checkbox" name="jaune" id="jaune" value="jaune">
+            <input type="checkbox" name="vert" id="vert" value="vert">
+            <input type="checkbox" name="orange" id="orange" value="orange">
+            <input type="checkbox" name="marron" id="marron" value="marron">
+            <input type="checkbox" name="gris" id="gris" value="gris">
+            <input type="checkbox" name="noir" id="noir" value="noir">
+            <input type="checkbox" name="violet" id="violet" value="violet">
+            <input type="checkbox" name="rose" id="rose" value="rose">
+            <input type="checkbox" name="bleu" id="bleu" value="bleu">
+            <input type="checkbox" name="blanc" id="blanc" value="blanc">
+            
+        </div>
+        
+        <div class="rangerpre">
+            
+            <label for="rouge">
+                <div class="coloope" style="background-color: #ff0000;">
+                    <img src="{{url_for('static', filename='IMAGE/chets.png' )}}" width=" 100%" alt="" style="filter: invert(11%) sepia(95%) saturate(7479%) hue-rotate(7deg) brightness(108%) contrast(120%);">
+            
+                    
+                </div>
+            </label>
+
+            <label for="vert">
+                <div class="coloope" style="background-color: #008000;">
+                    <img src="{{url_for('static', filename='IMAGE/chets.png' )}}" width=" 100%" alt="" style="filter: invert(29%) sepia(69%) saturate(1418%) hue-rotate(89deg) brightness(100%) contrast(105%);">
+            
+                    
+                </div>
+            </label>
+            <label for="jaune">
+                <div class="coloope" style="background-color: #a5a515;">
+                    <img src="{{url_for('static', filename='IMAGE/chets.png' )}}" width=" 100%" alt="" style="filter: invert(60%) sepia(19%) saturate(1860%) hue-rotate(21deg) brightness(100%) contrast(84%);">
+            
+                    
+                </div>
+            </label>
+
+            <label for="orange">
+                <div class="coloope" style="background-color: #ff7300;">
+                    <img src="{{url_for('static', filename='IMAGE/chets.png' )}}" width=" 100%" alt="" style="filter: invert(52%) sepia(36%) saturate(5712%) hue-rotate(1deg) brightness(105%) contrast(103%);">
+            
+                    
+                </div>
+            </label>
+            <label for="marron">
+                <div class="coloope" style="background-color: #573214;">
+                    <img src="{{url_for('static', filename='IMAGE/chets.png' )}}" width=" 100%" alt="" style="filter: invert(17%) sepia(82%) saturate(472%) hue-rotate(346deg) brightness(95%) contrast(93%);">
+            
+                    
+                </div>
+            </label>
+            <label for="gris">
+                <div class="coloope" style="background-color: #808080;">
+                    <img src="{{url_for('static', filename='IMAGE/chets.png' )}}" width=" 100%" alt="" style="filter: invert(49%) sepia(6%) saturate(3%) hue-rotate(89deg) brightness(100%) contrast(89%);">
+            
+                    
+                </div>
+            </label>
+
+            <label for="noir">
+                <div class="coloope" style="background-color: #000000;">
+                    <img src="{{url_for('static', filename='IMAGE/chets.png' )}}" width=" 100%" alt="" >
+            
+                    
+                </div>
+            </label>
+            <label for="violet">
+                <div class="coloope" style="background-color: #800080;">
+                    <img src="{{url_for('static', filename='IMAGE/chets.png' )}}" width=" 100%" alt="" style="filter: invert(13%) sepia(76%) saturate(3903%) hue-rotate(290deg) brightness(85%) contrast(117%);">
+            
+                    
+                </div>
+                
+            </label>
+
+            
+            <label for="rose">
+                <div class="coloope" style="background-color: #d87093;">
+                    <img src="{{url_for('static', filename='IMAGE/chets.png' )}}" width=" 100%" alt="" style="filter: invert(84%) sepia(22%) saturate(6639%) hue-rotate(294deg) brightness(86%) contrast(97%);">
+            
+                    
+                </div>
+            </label>
+            <label for="bleu">
+                <div class="coloope" style="background-color: #0000ff;">
+                    <img src="{{url_for('static', filename='IMAGE/chets.png' )}}" width=" 100%" alt="" style="filter: invert(8%) sepia(96%) saturate(6156%) hue-rotate(245deg) brightness(122%) contrast(139%);">
+            
+                    
+                </div>
+            </label>
+            <label for="blanc">
+                <div class="coloope" style="background-color: #bebdbd">
+                    <img src="{{url_for('static', filename='IMAGE/chets.png' )}}" width=" 100%" alt="" style="filter: invert(63%) sepia(88%) saturate(0%) hue-rotate(188deg) brightness(100%) contrast(95%);
+
+                    ">
+            
+                    
+                </div>
+            </label>
+        </div>
+        
+        
+        <p style="text-align: center;color: rgb(36, 36, 116);font-size: 0.8rem;padding-top: 20px;font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;padding-bottom: 10px;">- Quel est la categorie des articles ?</p>
+
+        <select name="categorie" id="" >
+            <!-- <option value="VetementHomme">Vetement Homme</option> -->
+            <option value="VetementFemme">Vetement Femme</option>
+            <option value="chaussure">Chaussure</option>
+            <!-- <option value="sac">Sac Femme</option> -->
+            <option value="Montre">Montre</option>
+        </select>
+        <p style="text-align: start;color: rgb(36, 36, 116);font-size: 0.8rem;padding-top: 20px;font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;padding-bottom: 10px;padding-left: 50px;">Nom du produit !</p>
+        <div class="formuwpiie">
+            <input type="text" name="nom" id="" placeholder="Nom du produit">
+        </div>
+        <p style="text-align: start;color: rgb(36, 36, 116);font-size: 0.8rem;padding-top: 20px;font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;padding-bottom: 10px;padding-left: 50px;">Description complete du produit !</p>
+        <div class="formuwpiie">
+            <input type="text" name="description" id="" placeholder="Description du produit">
+        </div>
+        <p style="text-align: start;color: rgb(36, 36, 116);font-size: 0.8rem;padding-top: 20px;font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;padding-bottom: 10px;padding-left: 50px;">Prix du produit !</p>
+        <div class="formuwpiie">
+            <input type="text" name="prix" id="" placeholder="Prix du produit">
+        </div>
+        <p style="text-align: start;color: rgb(36, 36, 116);font-size: 0.8rem;padding-top: 20px;font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;padding-bottom: 10px;padding-left: 50px;">Reduction du prix du produit en % !</p>
+        <div class="formuwpiie">
+            <input type="text" name="porce" id="" placeholder="Prix du produit">
+        </div>
+        <div class="boutin">
+            <button> <h1 style="font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;font-size: 1rem;color: white;
+                text-align: center;">AJOUTER MAINTENANT</h1></button>
+        </div>
+        <!-- <div class="couleurerw">
+            
+            
+            
+        </div> -->
+       
+    </form>
+
+
+    <script src="/static/CSS/ajout.js"></script>
+</body>
+</html>
