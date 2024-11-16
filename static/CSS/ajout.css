@@ -211,7 +211,7 @@
     width: 40px;
     height: 40px;
     background-color: aqua;
-    color: #ffa500;
+    color: rgba(123, 0, 255, 0.865);
 }
 .b {
     width: 40px;

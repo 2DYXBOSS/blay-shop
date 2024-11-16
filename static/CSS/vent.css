@@ -67,7 +67,7 @@ a{
 .rondquant {
     width: 20px;
     height: 20px;
-    background-color: rgba(255, 102, 0, 0.865);
+    background-color: rgba(123, 0, 255, 0.865);
     position: fixed;
     bottom: 90px;
     right: 10px;
@@ -95,7 +95,7 @@ a{
 .rondquant {
     width: 20px;
     height: 20px;
-    background-color: rgba(255, 102, 0, 0.865);
+    background-color: rgba(123, 0, 255, 0.865);
     position: fixed;
     bottom: 90px;
     right: 10px;
@@ -251,7 +251,7 @@ a{
 .mennn nav ul a:hover{
     list-style-type: none;
     text-decoration: none;
-    color: rgba(255, 102, 0, 0.865);
+    color: rgba(123, 0, 255, 0.865);
     
 }
 .mennn nav ul li{
@@ -294,12 +294,12 @@ a{
     justify-content: center;
     width: 60px;
     height: 100%;
-    background-color: rgba(255, 102, 0, 0.865);
+    background-color: rgba(123, 0, 255, 0.865);
 }
 #deuxlogo {
     padding-left: 5px;
     padding-right: 5px;
-    background-color: rgba(255, 102, 0, 0.865);
+    background-color: rgba(123, 0, 255, 0.865);
     color: white;
     font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
 }
@@ -322,19 +322,19 @@ a{
     height: 40px;
     width: 70%;
     border-radius: 30px 0px 0px 30px;
-    border: 2px solid rgba(255, 102, 0, 0.865);
+    border: 2px solid rgba(123, 0, 255, 0.865);
     padding-left: 20px;
     outline: none;
     cursor: pointer;
 }
 #bouton {
-    background-color: rgba(255, 102, 0, 0.865);
+    background-color: rgba(123, 0, 255, 0.865);
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 9.5px 12px;
     border-radius: 0px 30px 30px 0px;
-    border: 2px solid rgba(255, 102, 0, 0.865);
+    border: 2px solid rgba(123, 0, 255, 0.865);
     color: white;
 }
 .acceu {
@@ -497,7 +497,7 @@ a{
     gap: 30px;
 }
 .monfix .retse p:hover{
-    color: rgba(255, 102, 0, 0.865);
+    color: rgba(123, 0, 255, 0.865);
     
     text-shadow: 2px 2px 3px rgb(205, 205, 205);
 }
@@ -518,7 +518,7 @@ a{
     
     padding-left: 20px;
     padding-top: 30px;
-    color: rgba(255, 102, 0, 0.865);
+    color: rgba(123, 0, 255, 0.865);
 }
 .menu h1{
     
@@ -535,7 +535,7 @@ a{
 .croi {
     width: 60px;
     height: 100px;
-    background-color: rgba(255, 102, 0, 0.865);
+    background-color: rgba(123, 0, 255, 0.865);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -563,7 +563,7 @@ a{
     font-size: clamp(12px, 1.5vw, 14px);
 }
 .monfixder .retse p:hover{
-    color: rgba(255, 102, 0, 0.865);
+    color: rgba(123, 0, 255, 0.865);
    
 }
 .monfixder .retse {
@@ -748,7 +748,7 @@ a{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color:  rgba(255, 102, 0, 0.865);
+    background-color:  rgba(123, 0, 255, 0.865);
     color: white;
     box-shadow: 1px 1px 5px -1px gray;
     border: none;
@@ -761,7 +761,7 @@ a{
     height: 100%;
     background-color: rgba(247, 247, 247, 0.448);
     border-radius: 10px;
-    border: 1px solid rgba(255, 102, 0, 0.865);
+    border: 1px solid rgba(123, 0, 255, 0.865);
     padding-left: 20px;
     outline: none;
     color: black;
@@ -855,13 +855,13 @@ a{
 
 
 #home.active{
-    color: rgba(255, 102, 0, 0.865);
+    color: rgba(123, 0, 255, 0.865);
 }
 #contact.active{
-    color: rgba(255, 102, 0, 0.865);
+    color: rgba(123, 0, 255, 0.865);
 }
 #cleud.active{
-    color: rgba(255, 102, 0, 0.865);
+    color: rgba(123, 0, 255, 0.865);
 }
 
 
@@ -988,7 +988,7 @@ a{
     font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
     font-size: 1.5rem;    
  
-    color: rgba(255, 102, 0, 0.865);   
+    color: rgba(123, 0, 255, 0.865);   
 
 } */
 
@@ -1014,10 +1014,10 @@ a{
     margin-top: 10px;
     padding: 10px 20px;
     background-color: white;
-    /* background-color: rgba(255, 102, 0, 0.865); */
+    /* background-color: rgba(123, 0, 255, 0.865); */
     border: 1px solid black;
     font-size: 0.9rem;
-    color: rgba(255, 102, 0, 0.865);
+    color: rgba(123, 0, 255, 0.865);
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -1158,7 +1158,7 @@ a{
         width: 100%;
         height: 300px;
         max-width: 1200px;
-        /* background-color: rgba(255, 102, 0, 0.865); */
+        /* background-color: rgba(123, 0, 255, 0.865); */
         
         display: grid;
         grid-auto-columns: auto;
@@ -1490,7 +1490,7 @@ a{
     #deuxlogo {
         padding-left: 5px;
         padding-right: 5px;
-        background-color: rgba(255, 102, 0, 0.865);
+        background-color: rgba(123, 0, 255, 0.865);
         color: white;
         font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
     }
@@ -1553,7 +1553,7 @@ a{
     #hjdsd button{
         height: 40px;
         /* margin-left: 10px;
-        background-color: rgba(255, 102, 0, 0.865); */
+        background-color: rgba(123, 0, 255, 0.865); */
         /* padding-left: 15px;
         padding-right: 15px; */
         color: white;
@@ -1723,7 +1723,7 @@ a{
     .ududdw {
         height: 40px;
         width: 40px;
-        background-color: rgba(255, 102, 0, 0.865);
+        background-color: rgba(123, 0, 255, 0.865);
         border-radius: 5px;
         display: flex;
         justify-content: center;
@@ -1939,7 +1939,7 @@ a{
         width: 100%;
         height: 250px;
         max-width: 1200px;
-        /* background-color: rgba(255, 102, 0, 0.865); */
+        /* background-color: rgba(123, 0, 255, 0.865); */
         
         display: grid;
         grid-auto-columns: auto;
@@ -2186,7 +2186,7 @@ a{
     #deuxlogo {
         padding-left: 5px;
         padding-right: 5px;
-        background-color: rgba(255, 102, 0, 0.865);
+        background-color: rgba(123, 0, 255, 0.865);
         color: white;
         font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
     }
@@ -2252,7 +2252,7 @@ a{
     #hjdsd button{
         height: 40px;
         /* margin-left: 10px;
-        background-color: rgba(255, 102, 0, 0.865); */
+        background-color: rgba(123, 0, 255, 0.865); */
         /* padding-left: 15px;
         padding-right: 15px; */
         color: white;
@@ -2450,7 +2450,7 @@ a{
     .ududdw {
         height: 40px;
         width: 40px;
-        background-color: rgba(255, 102, 0, 0.865);
+        background-color: rgba(123, 0, 255, 0.865);
         border-radius: 5px;
         display: flex;
         justify-content: center;
@@ -2603,7 +2603,7 @@ a{
 .posietd {
     height: 100%;
     width: 25%;
-    background-color: rgba(255, 102, 0, 0.865);
+    background-color: rgba(123, 0, 255, 0.865);
     border: outset 3px solid rgba(0, 0, 0, 0.212);
     display: flex;
     align-items: center;

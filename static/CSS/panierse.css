@@ -48,7 +48,7 @@
 #deuxlogo23 {
     padding-left: 5px;
     padding-right: 5px;
-    background-color: rgba(255, 102, 0, 0.865);
+    background-color: rgba(123, 0, 255, 0.865);
     color: white;
     font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
 }
@@ -187,7 +187,7 @@
         width: 100%;
         height: 300px;
         max-width: 1200px;
-        /* background-color: rgba(255, 102, 0, 0.865); */
+        /* background-color: rgba(123, 0, 255, 0.865); */
         
         display: grid;
         grid-auto-columns: auto;
@@ -391,7 +391,7 @@
     #deuxlogo {
         padding-left: 5px;
         padding-right: 5px;
-        background-color: rgba(255, 102, 0, 0.865);
+        background-color: rgba(123, 0, 255, 0.865);
         color: white;
         font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
     }
@@ -503,7 +503,7 @@
     .jdidsed2 button{
         height: 40px;
         width: 100%;
-        background-color: rgba(255, 102, 0, 0.865);
+        background-color: rgba(123, 0, 255, 0.865);
         border: none;
         border-left: 1px solid rgba(183, 183, 183, 0.501) ;
         border-right: 1px solid rgba(183, 183, 183, 0.501) ;
@@ -540,7 +540,7 @@
     #hjdsd button{
         height: 40px;
         /* margin-left: 10px;
-        background-color: rgba(255, 102, 0, 0.865); */
+        background-color: rgba(123, 0, 255, 0.865); */
         /* padding-left: 15px;
         padding-right: 15px; */
         color: white;
@@ -551,7 +551,7 @@
     #hjdsd123 button{
         height: 40px;
         /* margin-left: 10px;
-        background-color: rgba(255, 102, 0, 0.865); */
+        background-color: rgba(123, 0, 255, 0.865); */
         /* padding-left: 15px;
         padding-right: 15px; */
         color: white;
@@ -802,7 +802,7 @@
         width: 100%;
         height: 250px;
         max-width: 1200px;
-        /* background-color: rgba(255, 102, 0, 0.865); */
+        /* background-color: rgba(123, 0, 255, 0.865); */
         
         display: grid;
         grid-auto-columns: auto;
@@ -1048,7 +1048,7 @@
     #deuxlogo {
         padding-left: 5px;
         padding-right: 5px;
-        background-color: rgba(255, 102, 0, 0.865);
+        background-color: rgba(123, 0, 255, 0.865);
         color: white;
         font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
     }
@@ -1216,7 +1216,7 @@
     .jdidsed2 button{
         height: 40px;
         width: 100%;
-        background-color: rgba(255, 102, 0, 0.865);
+        background-color: rgba(123, 0, 255, 0.865);
         border: none;
         border-left: 1px solid rgba(183, 183, 183, 0.501) ;
         border-right: 1px solid rgba(183, 183, 183, 0.501) ;
@@ -1229,7 +1229,7 @@
     #hjdsd button{
         height: 40px;
         /* margin-left: 10px;
-        background-color: rgba(255, 102, 0, 0.865); */
+        background-color: rgba(123, 0, 255, 0.865); */
         /* padding-left: 15px;
         padding-right: 15px; */
         color: white;
@@ -1240,7 +1240,7 @@
     #hjdsd123 button{
         height: 40px;
         /* margin-left: 10px;
-        background-color: rgba(255, 102, 0, 0.865); */
+        background-color: rgba(123, 0, 255, 0.865); */
         /* padding-left: 15px;
         padding-right: 15px; */
         color: white;
